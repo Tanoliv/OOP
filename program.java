@@ -1,15 +1,7 @@
-import Units.Crossbowman;
-import Units.Magician;
-import Units.Monk;
-import Units.Outlaw;
-import Units.Peasant;
-import Units.Pikeman;
-import Units.Sniper;
+
       
         
-public class program {
-
-   
+public class program {   
 
     public static void main(String[] args) {    
         Sniper sniper = new Sniper();       
@@ -27,7 +19,5 @@ public class program {
         System.out.println(peasant.getInfo());
         System.out.println(monk.getInfo());
         System.out.println(magician.getInfo());
-    }
-
-   
+    }   
 }
